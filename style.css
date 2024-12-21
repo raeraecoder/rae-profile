@@ -1,0 +1,126 @@
+body{
+    font-family: "Ubuntu", serif;
+    background-color: #f6d3ee;
+}
+
+.container{
+    max-width: 840px;
+    margin:0 auto
+}
+.container>div{
+    margin-top:20px;
+}
+.intro{
+    text-align: center;
+}
+.grid-item{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.i-am, .i-like{
+    text-align: center;
+}
+.list-item{
+    list-style: none;
+}
+@media(max-width:480px){
+    .grid-item{
+        grid-template-columns: 100px;
+    }
+}
+.project-heading{
+    text-align: center;
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+.project-image{
+
+   justify-self: center;
+   width:300px;
+   height:300px;
+    border-radius: 10%; 
+   padding:2%;
+   
+  
+}
+@media(max-width:650px){
+    .project-grid{
+        grid-template-columns: 100%;
+    }
+}
+.link-and-contact{
+    display: grid;
+    grid-template-columns: 30% 70%;  
+    margin-left:100px;
+}
+/* .link{
+    justify-self: center;
+}
+.contact{
+    justify-self: center;
+} */
+.link-list{
+    list-style: none;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+@media(max-width:650px){
+    .link-and-contact{
+        grid-template-columns: 100%;
+    }
+}
+.profile-picture{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px 0 rgb(34,60,80,0.16);
+    transition: all ease-in-out .2%;
+
+}
+.profile-picture:hover{
+    box-shadow: 0 8px 12px 0 rgb(34,60,80,0.16);
+}
+.project-image:hover{
+ filter: brightness(.75);
+}
+.project-img-warpper{
+    position:relative;
+    justify-self: center;
+    padding:4%;
+}
+
+.project-img-warpper > h4{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    z-index:2;
+    visibility: hidden;
+    transition: all ease-in-out .2%;
+}
+.project-img-warpper:hover > h4{
+    visibility: visible;
+} 
+
+form input,textarea{
+    width:240px;
+    border-radius:5px;
+    padding: 5px;
+}
+
+form input[type='submit']{
+    width:250px;
+}
+.submit-btn-wrapper{
+    margin:20px 0;
+}
+hr{
+    border: 0;
+    height:1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
