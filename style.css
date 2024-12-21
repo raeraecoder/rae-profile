@@ -53,7 +53,7 @@ body{
 .link-and-contact{
     display: grid;
     grid-template-columns: 30% 70%;  
-    margin-left:100px;
+   
 }
 /* .link{
     justify-self: center;
