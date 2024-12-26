@@ -13,21 +13,22 @@ body{
 .intro{
     text-align: center;
 }
-.grid-item{
+/* .grid-item{
     display: grid;
     grid-template-columns: 50% 50%;
-}
+} */
 .i-am, .i-like{
-    text-align: center;
+/*     text-align: center; */
+    margin-left:80px
 }
 .list-item{
     list-style: none;
 }
-@media(max-width:480px){
+/* @media(max-width:480px){
     .grid-item{
         grid-template-columns: 100px;
     }
-}
+} */
 .project-heading{
     text-align: center;
 }
@@ -40,7 +41,7 @@ body{
    justify-self: center;
    width:300px;
    height:300px;
-    border-radius: 10%; 
+  border-radius: 10%; 
    padding:2%;
    
   
@@ -52,7 +53,9 @@ body{
 }
 .link-and-contact{
     display: grid;
-    grid-template-columns: 30% 70%;  
+    grid-template-columns: 40% 60%;  
+    margin-left:80px;
+    margin-bottom: 80px;
    
 }
 /* .link{
