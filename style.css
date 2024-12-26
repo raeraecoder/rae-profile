@@ -19,7 +19,7 @@ body{
 } */
 .i-am, .i-like{
 /*     text-align: center; */
-    margin-left:80px
+    margin-left:50px
 }
 .list-item{
     list-style: none;
@@ -54,7 +54,7 @@ body{
 .link-and-contact{
     display: grid;
     grid-template-columns: 40% 60%;  
-    margin-left:80px;
+    margin-left:50px;
     margin-bottom: 80px;
    
 }
