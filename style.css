@@ -1,6 +1,5 @@
 body{
     font-family: "Ubuntu", serif;
-    background-color: #f6d3ee;
 }
 
 .container{
@@ -50,6 +49,8 @@ body{
     .project-grid{
         grid-template-columns: 100%;
     }
+
+
 }
 .link-and-contact{
     display: grid;
@@ -75,6 +76,8 @@ a{
     .link-and-contact{
         grid-template-columns: 100%;
     }
+   
+
 }
 .profile-picture{
     width: 150px;
@@ -93,7 +96,7 @@ a{
 .project-img-warpper{
     position:relative;
     justify-self: center;
-    padding:4%;
+    padding:1%;
 }
 
 .project-img-warpper > h4{
